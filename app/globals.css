@@ -17,40 +17,43 @@
   }
 }
 
+@font-face {
+  font-family: "Righteous";
+  src: url("/fonts/Righteous-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  color: var(--foreground);
+  color: var(--background);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 
-  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .choice1 {
-
-  
-
   border-bottom: 3px solid transparent;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
 
-  margin-left: 1.5rem; /* ml-6 */
-  margin-right: 1.5rem; /* mr-6 */
-  padding-top: 2.5rem; /* pt-10 */
-  padding-left: 0.75rem; /* pl-3 */
-  padding-right: 0.75rem; /* pr-3 */
-  padding-bottom: 1.75rem; /* pb-7 */
-  height: 6rem; /* h-24 */
-  border-bottom-left-radius: 9999px; /* rounded-b-full (fully rounded bottom corners) */
-  border-bottom-right-radius: 9999px; /* rounded-b-full (fully rounded bottom corners) */
-  cursor: pointer; /* cursor-pointer */
-  transition: all 0.3s ease-in-out; /* เพิ่มการเปลี่ยนแปลงอย่างช้าๆ */
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding-top: 2.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 1.75rem;
+  height: 6rem;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .choice1:hover {
   background: linear-gradient(rgb(58, 35, 56), rgb(0, 0, 0)) padding-box,
-    linear-gradient(to top, rgb(255, 193, 233), #bb0396) border-box;
+    linear-gradient(to top, rgb(255, 193, 233), rgb(182, 15, 149)) border-box;
   border-bottom-left-radius: 9999px;
   border-bottom-right-radius: 9999px;
   border-bottom: 3px solid transparent;
@@ -64,19 +67,18 @@ body {
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
 
-  margin-left: 1.5rem; /* ml-6 */
-  margin-right: 1.5rem; /* mr-6 */
-  padding-top: 2.5rem; /* pt-10 */
-  padding-left: 0.75rem; /* pl-3 */
-  padding-right: 0.75rem; /* pr-3 */
-  padding-bottom: 1.75rem; /* pb-7 */
-  height: 7rem; /* h-28 */
-  border-bottom-left-radius: 9999px; /* rounded-b-full */
-  border-bottom-right-radius: 9999px; /* rounded-b-full */
-  cursor: pointer; /* cursor-pointer */
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding-top: 2.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 1.75rem;
+  height: 7rem;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  cursor: pointer;
 
-  transition: all 0.3s ease-in-out; /* เพิ่มการเปลี่ยนแปลงอย่างช้าๆ */
-
+  transition: all 0.3s ease-in-out;
 }
 
 .choice2:hover {
@@ -99,14 +101,54 @@ body {
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
 
-  margin-left: 1.5rem; /* ml-6 */
-  margin-right: 1.5rem; /* mr-6 */
-  padding-top: 2.5rem; /* pt-10 */
-  padding-left: 0.75rem; /* pl-3 */
-  padding-right: 0.75rem; /* pr-3 */
-  padding-bottom: 1.75rem; /* pb-7 */
-  height: 6rem; /* h-28 */
-  border-bottom-left-radius: 9999px; /* rounded-b-full */
-  border-bottom-right-radius: 9999px; /* rounded-b-full */
-  cursor: pointer; /* cursor-pointer */
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding-top: 2.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 1.75rem;
+  height: 6rem;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  cursor: pointer;
+}
+
+.TextHi {
+  font-family: "Righteous", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 2%;
+}
+
+.nameText {
+  font-family: "Righteous", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+
+  background-image: linear-gradient(to right, #d804ac, #ec0000);
+  color: transparent;
+  background-clip: text;
+}
+
+.description {
+  width: 90%;
+  font-weight: bold;
+}
+
+.contact {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-image: linear-gradient(to right, #8f0974, black);
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact:hover {
+  transform: scale(1.1);
 }
