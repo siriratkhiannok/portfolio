@@ -34,12 +34,12 @@ export default function Home() {
         alt=""
       />
       <img
-        className="absolute bottom-0 left-20 hover:scale-105 hover:bottom-5  transition-all duration-300"
+        className="absolute bottom-0 left-28 hover:scale-105 hover:bottom-5  transition-all duration-300"
         style={{ height: "90%" }}
         src={anime.src}
         alt=""
       />
-      <div className="h-1/3 left-1/3 ml-48 absolute boxContent" style={{width:'37%', top:'30%'}}>
+      <div className="h-1/3 ml-48 absolute boxContent" style={{width:'37%', top:'30%', left: '40%'}}>
         <p className="TextHi">Hello Everyone!</p>
         <p className="nameText">I'm Sirirat Khiannok</p>
         <p className="description">
