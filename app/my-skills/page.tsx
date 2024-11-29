@@ -6,6 +6,7 @@ import jsImg from "../../public/img/js.svg";
 import githubImg from "../../public/img/github.svg";
 import vsCodeImg from "../../public/img/vscode.svg";
 import figmaImg from "../../public/img/figma.svg";
+import toolsIcon from '../../public/img/toolsIcon.svg'
 import photoshopImg from "../../public/img/photoshop.svg";
 import Image from "next/image";
 
@@ -66,7 +67,7 @@ const MySkills = () => {
       </div>
 
       <div className="absolute  box2  z-20">
-        <p className="text-center text-xl relative mt-5 mb-9">Tools</p>
+        <p className=" text-xl relative mt-5 mb-9 flex justify-center items-center gap-2">Tools <Image alt="toolsIcon" src={toolsIcon.src} width={24} height={0}></Image></p>
         <div className="flex items-center justify-center flex-col">
           <div className="w-3/4 flex justify-between">
             <p className="tools pt-1 pb-1 flex items-center gap-2 pl-3 pr-3">
