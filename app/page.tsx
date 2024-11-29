@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 import anime from "../public/img/anime.svg";
 import ball1 from "../public/img/ball1.svg";
 import ball2 from "../public/img/ball2.svg";
 import ball3 from "../public/img/ball3.svg";
-import mail from '../public/img/mail.svg'
-import phone from '../public/img/phone.svg'
-import github from '../public/img/github.svg'
+import mail from "../public/img/mail.svg";
+import phone from "../public/img/phone.svg";
+import github from "../public/img/github.svg";
 
 export default function Home() {
   return (
@@ -16,8 +18,12 @@ export default function Home() {
       <div className="absolute w-full z-10">
         <div className=" text-white font-semibold flex justify-end mr-96 h-36 bg-transparent">
           <p className="chouce_Default">Home</p>
-          <p className="choice1 ">My Skills</p>
-          <p className="choice2">My Projects</p>
+          <Link href={"/my-skills"}>
+            <p className="choice1 ">My Skills</p>
+          </Link>
+          <Link href={'/my-projects'}>
+            <p className="choice2">My Projects</p>
+          </Link>
         </div>
       </div>
       <img width={360} src={ball1.src} className="absolute" alt="" />
@@ -39,7 +45,10 @@ export default function Home() {
         src={anime.src}
         alt=""
       />
-      <div className="h-1/3 ml-48 absolute boxContent" style={{width:'37%', top:'30%', left: '40%'}}>
+      <div
+        className="h-1/3 ml-48 absolute boxContent"
+        style={{ width: "37%", top: "30%", left: "40%" }}
+      >
         <p className="TextHi">Hello Everyone!</p>
         <p className="nameText">I'm Sirirat Khiannok</p>
         <p className="description">
@@ -48,13 +57,22 @@ export default function Home() {
           passion for learning best practices in software development.
         </p>
         <div className="mt-7 w-full">
-            <div className="flex w-full mb-7">
-              <p className="contact w-52 me-16"><img src={mail.src} alt="" />66022916@up.ac.th</p>
-              <p className="contact w-52"><img src={phone.src} width={'18px'} alt="" />097 - * * * * * *  *</p>
-            </div>
-            <a href="https://github.com/siriratkhiannok">
-            <p className="contact w-72 "><img src={github.src} width={'25px'} alt="" />github.com/siriratkhiannok</p>
-            </a>
+          <div className="flex w-full mb-7">
+            <p className="contact w-52 me-16">
+              <img src={mail.src} alt="" />
+              66022916@up.ac.th
+            </p>
+            <p className="contact w-52">
+              <img src={phone.src} width={"18px"} alt="" />
+              097 - * * * * * * *
+            </p>
+          </div>
+          <a href="https://github.com/siriratkhiannok">
+            <p className="contact w-72 ">
+              <img src={github.src} width={"25px"} alt="" />
+              github.com/siriratkhiannok
+            </p>
+          </a>
         </div>
       </div>
     </div>

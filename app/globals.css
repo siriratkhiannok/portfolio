@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
 
 :root {
   --background: #ffffff;
@@ -20,6 +20,13 @@
 @font-face {
   font-family: "Righteous";
   src: url("/fonts/Righteous-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trainone";
+  src: url("/fonts/TrainOne-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -151,4 +158,60 @@ body {
 
 .contact:hover {
   transform: scale(1.1);
+}
+
+.textBg {
+  font-family: "Trainone", serif;
+  font-size: 81px;
+  font-style: normal;
+  background-image: linear-gradient(to right, #ffacfc, #7122fa);
+  color: transparent;
+  background-clip: text;
+}
+
+.textTitle {
+  font-family: "Righteous", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.animeMySkills {
+  width: auto;
+  height: 80%;
+}
+
+.box1 {
+  left: 20%;
+  top: 30%;
+  border-radius: 10px;
+  width: 25%;
+  height: 30%;
+  background: linear-gradient(rgba(143, 9, 116, 1), rgba(143, 9, 116, 1))
+      padding-box,
+    linear-gradient(to right, #7122fa, #ffacfc) border-box;
+  border: 3px solid transparent;
+  border-width: 3px;
+}
+
+.tools {
+  background: linear-gradient(rgba(143, 9, 116, 1), rgba(143, 9, 116, 1))
+      padding-box,
+    linear-gradient(to right, #290321, #EE40CA) border-box;
+  border: 1px solid transparent;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.box2 {
+  left: 42%;
+  top: 58%;
+  border-radius: 10px;
+  width: 25%;
+  height: 30%;
+  background: linear-gradient(rgba(143, 9, 116, 1), rgba(143, 9, 116, 1))
+      padding-box,
+    linear-gradient(to right, #ffacfc, #7122fa) border-box;
+  border: 3px solid transparent;
+  border-width: 3px;
 }
