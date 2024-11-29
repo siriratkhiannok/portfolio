@@ -26,7 +26,7 @@ const MyProjects = () => {
       <p className="absolute top-5 left-80 z-10 title3">My Projects</p>
       <div className="absolute myProjectContent">
         <div className="flex justify-between items-center">
-          <p className="title33">Phayao Palce</p>
+          <p className="title33">Phayao Place</p>
           <a
             className="cursor-pointer hover:scale-150 transition-all duration-300  "
             href="https://www.figma.com/proto/TWpmhwVZWRN486pssl9iKU/phayao-place?node-id=20-2&scaling=scale-down-width&content-scaling=fixed"
