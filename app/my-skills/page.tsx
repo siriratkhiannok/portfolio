@@ -13,6 +13,7 @@ import Link from "next/link";
 const MySkills = () => {
   return (
     <div className="bg-black h-dvh relative">
+      <title>My Skills</title>
       <div className="absolute w-full z-10">
         <div className=" text-white font-semibold flex justify-end mr-96 h-36 bg-transparent">
           <Link href={"/"}>

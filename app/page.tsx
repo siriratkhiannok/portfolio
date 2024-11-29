@@ -14,7 +14,7 @@ export default function Home() {
       className="bg-black w-auto box-border "
       style={{ width: "100dvw", height: "100dvh" }}
     >
-      <title>Portfolio</title>
+      <title>Home</title>
       <div className="absolute w-full z-10">
         <div className=" text-white font-semibold flex justify-end mr-96 h-36 bg-transparent">
           <p className="chouce_Default">Home</p>
