@@ -7,6 +7,7 @@ import ball3 from "../public/img/ball3.svg";
 import mail from "../public/img/mail.svg";
 import phone from "../public/img/phone.svg";
 import github from "../public/img/github.svg";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -21,29 +22,39 @@ export default function Home() {
           <Link href={"/my-skills"}>
             <p className="choice1 ">My Skills</p>
           </Link>
-          <Link href={'/my-projects'}>
+          <Link href={"/my-projects"}>
             <p className="choice2">My Projects</p>
           </Link>
         </div>
       </div>
-      <img width={360} src={ball1.src} className="absolute" alt="" />
-      <img
+      <Image
+        width={360}
+        src={ball1.src}
+        height={100}
+        className="absolute"
+        alt=""
+      />
+      <Image
         width={300}
         src={ball3.src}
         className="absolute top-0 right-0 "
         alt=""
+        height={100}
       />
-      <img
+      <Image
         width={400}
         src={ball2.src}
         className="absolute bottom-0 right-0"
         alt=""
+        height={100}
       />
-      <img
+      <Image
         className="absolute bottom-0 left-28 hover:scale-105 hover:bottom-5  transition-all duration-300"
         style={{ height: "90%" }}
         src={anime.src}
         alt=""
+        width={500}
+        height={100}
       />
       <div
         className="h-1/3 ml-48 absolute boxContent"
@@ -59,17 +70,29 @@ export default function Home() {
         <div className="mt-7 w-full">
           <div className="flex w-full mb-7">
             <p className="contact w-52 me-16">
-              <img src={mail.src} alt="" />
+              <Image src={mail.src} alt="" width={20} height={100} />
               66022916@up.ac.th
             </p>
             <p className="contact w-52">
-              <img src={phone.src} width={"18px"} alt="" />
+              <Image
+                src={phone.src}
+                style={{ width: "15px" }}
+                width={30}
+                height={100}
+                alt=""
+              />
               097 - * * * * * * *
             </p>
           </div>
           <a href="https://github.com/siriratkhiannok">
             <p className="contact w-72 ">
-              <img src={github.src} width={"25px"} alt="" />
+              <Image
+                src={github.src}
+                style={{ width: "25px" }}
+                width={0}
+                height={100}
+                alt=""
+              />
               github.com/siriratkhiannok
             </p>
           </a>
