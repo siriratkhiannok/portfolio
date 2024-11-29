@@ -6,7 +6,7 @@ const MyProjects = () => {
       <div className="absolute w-full z-10">
         <div className=" text-white font-semibold flex justify-end mr-96 h-36 bg-transparent">
           <Link href={"/"}>
-            <p className="choice1">Home</p>
+            <p className="choice1">Test Reverse</p>
           </Link>
           <Link href={'/my-skills'}>
           
