@@ -28,18 +28,18 @@ const MySkills = () => {
       </div>
 
       <div>
-        <p className="textBg left-16 absolute">
-          PROFILE FILE
+        <p className="textBg left-10 absolute">
+          PROFILE PROFI
           <br />
-          PROFILE PROFILE PROFILE
+          PROFILE PROFILE PROFILE PRO
           <br />
-          PROFILE PROFILE PROFILE
+          PROFILE PROFILE PROFILE PRO
           <br />
-          PROFILE PROFILE PROFILE
+          PROFILE PROFILE PROFILE PRO
           <br />
-          PROFILE PROFILE PROFILE
+          PROFILE PROFILE PROFILE PRO
           <br />
-          PROFILE PROFILE PROFILE
+          PROFILE PROFILE PROFILE PRO
           <br />
         </p>
       </div>

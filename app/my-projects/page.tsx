@@ -28,7 +28,7 @@ const MyProjects = () => {
         <div className="flex justify-between items-center">
           <p className="title33">Phayao Palce</p>
           <a
-            className="cursor-pointer"
+            className="cursor-pointer hover:scale-150 transition-all duration-300  "
             href="https://www.figma.com/proto/TWpmhwVZWRN486pssl9iKU/phayao-place?node-id=20-2&scaling=scale-down-width&content-scaling=fixed"
           >
             <Image src={linkIcon.src} height={100} width={25} alt="" />
@@ -52,7 +52,7 @@ const MyProjects = () => {
       </div>
 
       <div>
-        <p className="textBg left-16 absolute">
+        <p className="textBg left-10 absolute">
           <br />
           PROFILE PROFILE PROFILE
           <br />
