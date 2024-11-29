@@ -61,7 +61,7 @@ export default function Home() {
         style={{ width: "37%", top: "30%", left: "40%" }}
       >
         <p className="TextHi">Hello Everyone!</p>
-        <p className="nameText">I'm Sirirat Khiannok</p>
+        <p className="nameText">I&apos;m Sirirat Khiannok</p>
         <p className="description">
           software engineering student I love designing web applications with
           expertise in Figma, Visual Studio Code, Photoshop and have a strong
