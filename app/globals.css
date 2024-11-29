@@ -197,7 +197,7 @@ body {
 .tools {
   background: linear-gradient(rgba(143, 9, 116, 1), rgba(143, 9, 116, 1))
       padding-box,
-    linear-gradient(to right, #290321, #EE40CA) border-box;
+    linear-gradient(to right, #290321, #ee40ca) border-box;
   border: 1px solid transparent;
   border-width: 2px;
   border-radius: 10px;
@@ -214,4 +214,42 @@ body {
     linear-gradient(to right, #ffacfc, #7122fa) border-box;
   border: 3px solid transparent;
   border-width: 3px;
+}
+
+.myProjectContent {
+  top: 270px;
+  left: 250px;
+  width: 50%;
+  background-color: rgba(41, 3, 33, 1);
+  border: 2px solid rgba(238, 64, 202, 1);
+  border-radius: 5px;
+  padding: 1% 2% 3% 2%;
+  z-index: 5;
+}
+
+.title3 {
+  font-family: "Righteous", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  font-style: normal;
+
+  background-image: linear-gradient(to right, #d804ac, #ec0000);
+  background-clip: text;
+  color: transparent;
+}
+
+
+.title33{
+  font-family: "Righteous", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #F879DD;
+
+}
+
+.descriptionText{
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
